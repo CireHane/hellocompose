@@ -1,5 +1,6 @@
 package com.example.hellocompose
 
+import android.content.res.Configuration
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -75,10 +76,11 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     )
 }
 
-@Preview(showBackground = true)
+@Preview(name = "light-mode", showBackground = true)
+@Preview(name = "dark-mode", uiMode = Configuration.UI_MODE_NIGHT_YES, showBackground = true)
 @Composable
 fun GreetingPreview() {
-    HelloComposeTheme {
+    HelloComposeTheme {`
         Greeting("Android")
     }
 }
