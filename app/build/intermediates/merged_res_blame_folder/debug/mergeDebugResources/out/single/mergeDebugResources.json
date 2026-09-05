@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.ch03.app-debug-47:/drawable_foto_profile.JPG.flat",
+        "source": "com.example.ch03.app-main-49:/drawable/foto_profile.JPG"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\.gradle\\daemon\\9.5.0\\com.example.ch03.app-debug-47:\\drawable_foto_profile.JPG.flat",
+        "source": "C:\\Users\\Lenovo\\.gradle\\daemon\\9.5.0\\com.example.ch03.app-main-49:\\drawable\\foto_profile.JPG"
+    }
+]
